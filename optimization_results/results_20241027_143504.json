@@ -1,0 +1,175 @@
+{
+  "best_parameters": {
+    "re_mode": 4,
+    "w_imag": -0.13641405915391902,
+    "w_real": 0.014793396517447377
+  },
+  "best_loss": 0.656487,
+  "all_trials": [
+    {
+      "trial_id": 0,
+      "parameters": {
+        "re_mode": [
+          1
+        ],
+        "w_imag": [
+          0.07592797337025481
+        ],
+        "w_real": [
+          -0.12309860943952133
+        ]
+      },
+      "loss": 0.762927,
+      "status": "ok"
+    },
+    {
+      "trial_id": 1,
+      "parameters": {
+        "re_mode": [
+          0
+        ],
+        "w_imag": [
+          -0.37814906277878624
+        ],
+        "w_real": [
+          0.1963142652790023
+        ]
+      },
+      "loss": 1.109245,
+      "status": "ok"
+    },
+    {
+      "trial_id": 2,
+      "parameters": {
+        "re_mode": [
+          2
+        ],
+        "w_imag": [
+          -0.13047987088095436
+        ],
+        "w_real": [
+          0.11206058047466405
+        ]
+      },
+      "loss": 2.218115,
+      "status": "ok"
+    },
+    {
+      "trial_id": 3,
+      "parameters": {
+        "re_mode": [
+          4
+        ],
+        "w_imag": [
+          -0.13641405915391902
+        ],
+        "w_real": [
+          0.014793396517447377
+        ]
+      },
+      "loss": 0.656487,
+      "status": "ok"
+    },
+    {
+      "trial_id": 4,
+      "parameters": {
+        "re_mode": [
+          4
+        ],
+        "w_imag": [
+          0.33270159904994145
+        ],
+        "w_real": [
+          -0.4395076787180765
+        ]
+      },
+      "loss": 0.656487,
+      "status": "ok"
+    },
+    {
+      "trial_id": 5,
+      "parameters": {
+        "re_mode": [
+          3
+        ],
+        "w_imag": [
+          0.386736318906274
+        ],
+        "w_real": [
+          -0.1107256064723453
+        ]
+      },
+      "loss": 0.749595,
+      "status": "ok"
+    },
+    {
+      "trial_id": 6,
+      "parameters": {
+        "re_mode": [
+          0
+        ],
+        "w_imag": [
+          0.3876196359391709
+        ],
+        "w_real": [
+          -0.06719422387551233
+        ]
+      },
+      "loss": 1.337716,
+      "status": "ok"
+    },
+    {
+      "trial_id": 7,
+      "parameters": {
+        "re_mode": [
+          2
+        ],
+        "w_imag": [
+          0.15288090116437525
+        ],
+        "w_real": [
+          -0.2949520450871247
+        ]
+      },
+      "loss": 3.462896,
+      "status": "ok"
+    },
+    {
+      "trial_id": 8,
+      "parameters": {
+        "re_mode": [
+          2
+        ],
+        "w_imag": [
+          0.47522309122969675
+        ],
+        "w_real": [
+          -0.24157750095032027
+        ]
+      },
+      "loss": 3.354848,
+      "status": "ok"
+    },
+    {
+      "trial_id": 9,
+      "parameters": {
+        "re_mode": [
+          2
+        ],
+        "w_imag": [
+          -0.49405250492010844
+        ],
+        "w_real": [
+          0.4583495239494024
+        ]
+      },
+      "loss": 1.528508,
+      "status": "ok"
+    }
+  ],
+  "statistics": {
+    "mean_loss": 1.5836824000000003,
+    "std_loss": 1.022170946020498,
+    "successful_trials": 10
+  }
+}

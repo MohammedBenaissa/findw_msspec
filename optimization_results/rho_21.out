@@ -1,0 +1,494 @@
+Matplotlib created a temporary config/cache directory at /tmp/matplotlib-2sju7k_u because the default path (/.config/matplotlib) is not a writable directory; it is highly recommended to set the MPLCONFIGDIR environment variable to a writable directory, in particular to speed up the import of Matplotlib and to better support multiprocessing.
+'NoneType' object has no attribute 'upper'
+'integrals' is ignored since the 'spinpol' global parameter is set to False. Enable spin polarization in the constructor of your Calculator if you want to use this option.
+The sample temperature was set, but will be ignored since 'use_debye_model' parameter is False.
+The sample Debye temperature was set, but will be ignored since 'use_debye_model' parameter is False.
+ _________________________________________________________________
+
+                               PHAGEN
+ _________________________________________________________________
+
+ -----------------------------------------------------------------
+  parameters for this led calculation:
+ -----------------------------------------------------------------
+  potype= hedin     norman= stdcrm    absorber=  1
+  coor= angs        emin=   36.75 Ry  emax=   36.75 Ry
+  delta=  0.300 Ry  gamma=  0.00  Ry  eftri=  0.000  Ry
+  cip=    0.00  Ry  lmaxt= 19         charelx: gs
+  ionization state : neutral
+  relativistic corrections of type: nr
+  final state potential generated internally
+
+
+  Computes the T-matrix and radial matrix elements                              
+
+
+  coordinates in angstroms                         Radii
+ -----------------------------------------------------------------
+  Pt    78    0.0000    0.0000   -0.0000    0.0000 0.0000
+  Pt    78   -3.9250    0.0000    3.9250    0.0000 0.0000
+  Pt    78   -1.9625   -1.9625    3.9250    0.0000 0.0000
+  Pt    78   -1.9625    0.0000    1.9625    0.0000 0.0000
+  Pt    78   -1.9625    1.9625    3.9250    0.0000 0.0000
+  Pt    78    0.0000   -3.9250    3.9250    0.0000 0.0000
+  Pt    78    0.0000   -1.9625    1.9625    0.0000 0.0000
+  Pt    78    0.0000    0.0000    3.9250    0.0000 0.0000
+  Pt    78    1.9625   -1.9625    3.9250    0.0000 0.0000
+  Pt    78    1.9625    0.0000    1.9625    0.0000 0.0000
+  Pt    78    0.0000    1.9625    1.9625    0.0000 0.0000
+  Pt    78    0.0000    3.9250    3.9250    0.0000 0.0000
+  Pt    78    1.9625    1.9625    3.9250    0.0000 0.0000
+  Pt    78    3.9250    0.0000    3.9250    0.0000 0.0000
+ -----------------------------------------------------------------
+
+
+  ** enter calphas **
+                        ---
+  total energy for atom in ground state 
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+  total energy for atom with a hole in k  edge
+  calculated ionization energy for edge k  =    78548.110744003599       eV
+                        ---
+  calculated ionization potential (ryd)    =   5775.5962162344476     
+                        ---
+           
+           
+  symmetrizing coordinates... 
+
+
+               symmetrized atomic coordinates of cluster  
+
+                                  position
+            atom    no.    x         y         z        eq
+
+           1  osph     0    0.0000    0.0000    0.0000     0
+           2  Pt      78    0.0000    0.0000   -5.8278     0
+           3  Pt      78   -7.4172    0.0000    1.5894     0
+           4  Pt      78   -3.7086   -3.7086    1.5894     0
+           5  Pt      78   -3.7086    0.0000   -2.1192     0
+           6  Pt      78   -3.7086    3.7086    1.5894     0
+           7  Pt      78    0.0000   -7.4172    1.5894     0
+           8  Pt      78    0.0000   -3.7086   -2.1192     0
+           9  Pt      78    0.0000    0.0000    1.5894     0
+          10  Pt      78    3.7086   -3.7086    1.5894     0
+          11  Pt      78    3.7086    0.0000   -2.1192     0
+          12  Pt      78    0.0000    3.7086   -2.1192     0
+          13  Pt      78    0.0000    7.4172    1.5894     0
+          14  Pt      78    3.7086    3.7086    1.5894     0
+          15  Pt      78    7.4172    0.0000    1.5894     0
+
+  computing muffin tin potential and phase shifts
+  generating core state wavefunction 
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+  generating final potential (complex hedin-lundqvist exchange)    
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+  MT radii for Hydrogen atoms determined by stdcrm unless other options are specified
+
+ -----------------------------------------------------------------
+  i    rs(i)   i=1,natoms      
+    1   10.26    2    2.68    3    2.68    4    2.57    5    2.56    6    2.57    7    2.68    8    2.56
+    9    2.56   10    2.57   11    2.56   12    2.56   13    2.68   14    2.68   15    2.68
+  N.B.: Order of atoms as reshuffled by symmetry routines 
+ -----------------------------------------------------------------
+
+  input value for coulomb interst. potential = -0.69999999999999996     
+  and interstitial rs =   3.0000000000000000     
+  lower bound for coulomb interst. potential = -0.25513022836227961     
+  and for interst. rs =   2.2277023335313801     
+
+  lmax assignment based on l_max = r_mt * k_e + 2
+  where e is the running energy
+  optimal lmax chosen according to the running energy e for each atom
+
+
+  number of centers=   14
+
+  starting potentials and/or charge densities written to file 13
+  symmetry information generated internally
+  symmetry information  written  to file 14
+
+
+  core initial state of type: 1s1/2
+
+  fermi level =  -0.13966
+
+
+  generating t_l (for030) and atomic cross section (for050)
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+ corewf: fnisx =   0.95519859617279546     
+warning: iteration stopped because ies=nes
+warning: iteration stopped because ies=nes
+ warning  mat= 239 max0= 251
+ writing atomic orbital energies
+  orbital energy  (Ryd   eV)  1s     -5802.8071296025719       -78947.188341928690     
+  orbital energy  (Ryd   eV)  2s     -1029.8228017359627       -14010.738746202305     
+  orbital energy  (Ryd   eV)  2p1/2  -984.51954305731920       -13394.387932617547     
+  orbital energy  (Ryd   eV)  2p3/2  -857.18465258595313       -11661.996806043899     
+  orbital energy  (Ryd   eV)  3s     -246.76389271172357       -3357.2226473834535     
+  orbital energy  (Ryd   eV)  3p1/2  -226.63938051005579       -3083.4286680920341     
+  orbital energy  (Ryd   eV)  3p3/2  -198.25423717324517       -2697.2488059884131     
+  orbital energy  (Ryd   eV)  3d3/2  -165.36768980900135       -2249.8273441521424     
+  orbital energy  (Ryd   eV)  3d5/2  -159.30492295714984       -2167.3434039080171     
+  orbital energy  (Ryd   eV)  4s     -55.644302857406842       -757.04071490307967     
+  orbital energy  (Ryd   eV)  4p1/2  -47.058046909280954       -640.22470665930302     
+  orbital energy  (Ryd   eV)  4p3/2  -40.210933090029798       -547.06972628275105     
+  orbital energy  (Ryd   eV)  4d3/2  -26.188666870111817       -356.29680077965094     
+  orbital energy  (Ryd   eV)  4d5/2  -24.886387764357597       -338.57929414200089     
+  orbital energy  (Ryd   eV)  4f5/2  -6.8333039731698975       -92.967097426938139     
+  orbital energy  (Ryd   eV)  4f7/2  -6.5606553544935107       -89.257713094654534     
+  orbital energy  (Ryd   eV)  5s     -8.8159283395535795       -119.94070102401471     
+  orbital energy  (Ryd   eV)  5p1/2  -5.9632882787304231       -81.130534302350668     
+  orbital energy  (Ryd   eV)  5p3/2  -4.7651199094701262       -64.829454187042273     
+  orbital energy  (Ryd   eV)  5d3/2 -0.89925369256268961       -12.234346075669720     
+  orbital energy  (Ryd   eV)  5d5/2 -0.77746442830461615       -10.577403191189331     
+  orbital energy  (Ryd   eV)  6s      0.0000000000000000        0.0000000000000000     
+
+ using overlapped potential to search for core states of photoabsorber
+
+  calculating non relativistic core states
+ ------------------------------
+  energy of core state =   -5176.4664781874781       for orbital =1s   
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -854.12350824364125       for orbital =2s   
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -817.63943234283590       for orbital =2p1/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -817.63943234325677       for orbital =2p3/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -197.63840377615020       for orbital =3s   
+  n. of zeros found:           2  expected:            2
+ ------------------------------
+  energy of core state =   -181.20650923328662       for orbital =3p1/2
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -181.20650923328259       for orbital =3p3/2
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -151.23483041707291       for orbital =3d3/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -151.23483041707851       for orbital =3d5/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -40.771010899752739       for orbital =4s   
+  n. of zeros found:           3  expected:            3
+ ------------------------------
+  energy of core state =   -33.899441106926858       for orbital =4p1/2
+  n. of zeros found:           2  expected:            2
+ ------------------------------
+  energy of core state =   -33.899441112639693       for orbital =4p3/2
+  n. of zeros found:           2  expected:            2
+ ------------------------------
+  energy of core state =   -21.492767155357793       for orbital =4d3/2
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -21.492767155361165       for orbital =4d5/2
+  n. of zeros found:           1  expected:            1
+ ------------------------------
+  energy of core state =   -5.1580561190799568       for orbital =4f5/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -5.1580561036329557       for orbital =4f7/2
+  n. of zeros found:           0  expected:            0
+ ------------------------------
+  energy of core state =   -5.6060231627429671       for orbital =5s   
+  n. of zeros found:           4  expected:            4
+ ------------------------------
+  energy of core state =   -3.5210007367457301       for orbital =5p1/2
+  n. of zeros found:           3  expected:            3
+ ------------------------------
+  energy of core state =   -3.5210006749768996       for orbital =5p3/2
+  n. of zeros found:           3  expected:            3
+
+  calculating relativistic core states
+  energy of core state =   -5746.3750431771596       for orb =1s   
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -1010.7301923232728       for orb =2s   
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -969.13360521348636       for orb =2p1/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -842.10837745277206       for orb =2p3/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -237.82172386537329       for orb =3s   
+  n. of zeros found:           2  expected:            2
+  energy of core state =   -219.08926916966291       for orb =3p1/2
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -191.13359301685878       for orb =3p3/2
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -159.89052623856162       for orb =3d3/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -153.85096416152984       for orb =3d5/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -51.241668839386769       for orb =4s   
+  n. of zeros found:           3  expected:            3
+  energy of core state =   -43.283497862502010       for orb =4p1/2
+  n. of zeros found:           2  expected:            2
+  energy of core state =   -36.595398576627083       for orb =4p3/2
+  n. of zeros found:           2  expected:            2
+  energy of core state =   -23.542615705393125       for orb =4d3/2
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -22.295617506092089       for orb =4d5/2
+  n. of zeros found:           1  expected:            1
+  energy of core state =   -5.5749565025557946       for orb =4f5/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -5.3169342618992372       for orb =4f7/2
+  n. of zeros found:           0  expected:            0
+  energy of core state =   -7.6507814385173889       for orb =5s   
+  n. of zeros found:           4  expected:            4
+  energy of core state =   -5.0940544821257108       for orb =5p1/2
+  n. of zeros found:           3  expected:            3
+  energy of core state =   -3.9734521621815038       for orb =5p3/2
+  n. of zeros found:           3  expected:            3
+ -------------------------------
+  density of the valence charge (au^{-3}   3.0908492355660230E-002
+  rs_v corresponding to valence density (au)   1.9767171572562756     
+  valence plasmon energy (in eV)    15.004421552487443     
+
+  gamma =  0.000000   rsint =  3.673080
+
+  check in subroutine cont
+  order of neighb. -- symb. -- dist. from absorber
+  
+           4 Pt         5.2447347697441975     
+           7 Pt         5.2447347697441975     
+          10 Pt         5.2447347697441975     
+          11 Pt         5.2447347697441975     
+           8 Pt         7.4171750424219756     
+           3 Pt         9.0841470934200075     
+           9 Pt         9.0841470934200075     
+           5 Pt         9.0841470934200075     
+          13 Pt         9.0841470934200075     
+           6 Pt         10.489469539488395     
+          12 Pt         10.489469539488395     
+           2 Pt         10.489469539488395     
+          14 Pt         10.489469539488395     
+  -----------------------------------------------------------------
+        1            Pt            0.000000
+        4            Pt            5.244735
+        7            Pt            5.244735
+       10            Pt            5.244735
+       11            Pt            5.244735
+        8            Pt            7.417175
+        3            Pt            9.084147
+        5            Pt            9.084147
+        9            Pt            9.084147
+       13            Pt            9.084147
+        2            Pt           10.489470
+        6            Pt           10.489470
+       12            Pt           10.489470
+       14            Pt           10.489470
+        1            Pt            0.000000
+       11            Pt            5.244735
+        8            Pt            7.417175
+       13            Pt            9.084147
+       14            Pt           10.489470
+   
+  irho =           2  entering vxc to calculate energy dependent exchange
+  energy dependent vcon =             (-0.12092428428605806,0.12245314479402403)  at energy   36.749299999999998     
+  check ionization potential:   5775.5962162344476     
+   
+   
+  value of the mean free path:
+ -----------------------------------------------------------------
+  average mean free path in the cluster     : mfp =  14.61598  angstrom at energy   36.74930
+
+ -----------------------------------------------------------------
+   
+  calculating atomic t-matrix elements atm(n)
+  check orthogonality between core and continuum state
+  scalar product between core and continuum state =  (-2.68787986283388278E-002,6.85786934853552330E-003)
+  --- sqrt(xe/pi) =        (1.3902550076115547,-1.15432245286648362E-003)
+
+
+                ** phagen terminated normally ** 
+
+
+
+
+
+
+
+
+
+
+
+
+**********************************************************************************
+*********************                                        *********************
+*********************                                        *********************
+*********************             spec input file            *********************
+*********************                                        *********************
+*********************                                        *********************
+**********************************************************************************
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                CRYSTAL STRUCTURE :          
+
+
+
+
+            1.000     0                             A,IBAS
+            1       500.00    500.00      3         NE,EK_INI,EK_FIN,I_DAMP
+            0
+            0      EPSI         0.00100   1.000     I_PWM,METHOD,ACC,EXPO
+          200       200         3         0.000     N_MAX,N_ITER,N_TABLE,SHIFT
+            1         1         1         1         I_XN,I_VA,I_GN,I_WN
+            0         1.00      1.00                L,ALPHA,BETA
+
+
+
+                 TYPE OF CALCULATION : EIGENVALUE ANALYSIS
+
+
+
+                             CALCULATION PARAMETERS :        
+
+
+
+
+            0.00                                    VINT
+            0       420.000   293.000     1.20      IDCM,TD,T,RSJ
+            2        15.00                          ILPM,XLPM0
+            0.00000   0.00000   0.00000   0.00000   UJ2(NAT)  : SUBSTRATE
+            0.00000   0.00000   0.00000   0.00000   UJ2(NAT)  : SUBSTRATE
+            0.00000   0.00000   0.00000   0.00000   UJ2(NAT)  : SUBSTRATE
+            0.00000   0.00000                       UJ2(NAT)  : SUBSTRATE
+
+
+
+
+            MAXIMAL VALUES OF L FOR THE  14 PROTOTYPICAL  ATOMS : 
+
+
+                            18     18     18     18
+                            18     18     18     18
+                            18     18     18     18
+                            18     18
+
+
+   ---> CHECK FOR ZEROS IN THE TL FILE TO REDUCE THE AMOUNT OF COMPUTING :
+
+
+  (ONLY THE MATRIX ELEMENTS NON ZERO TO THE FIRST 7 DECIMAL DIGITS ARE KEPT)
+
+
+               ENERGY POINT No   1
+
+        PROTOTYPICAL ATOM No     1  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     2  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     3  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     4  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     5  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     6  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     7  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     8  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No     9  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No    10  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No    11  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No    12  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No    13  INITIAL LMAX = 18   FINAL LMAX = 18
+        PROTOTYPICAL ATOM No    14  INITIAL LMAX = 18   FINAL LMAX = 18
+
+
+
+
+
+                  SURFACE-LIKE ATOMS FOR MSD CALCULATIONS: 
+
+                        1      2      3      4      5      6      7
+                        8      9     10     11     12     13     14
+
+
+
+                      THE CLUSTER IS COMPOSED OF  3 PLANES :
+
+                    THE Z POSITION OF PLANE   1 IS :  3.925
+
+                    THE Z POSITION OF PLANE   2 IS :  1.962
+
+                    THE Z POSITION OF PLANE   3 IS :  0.000
+
+
+
+
+
+########## BEGINNING OF THE MULTIPLE       SCATTERING EIGENVALUE CALCULATION ##########
+
+
+
+
+
+
+
+
+
+
+  =========  E =  500.00 eV     MEAN FREE PATH = 12.080 ANGSTROEMS  =========
+    LATTICE PARAMETER A =  1.000 ANGSTROEMS    MEAN FREE PATH = 12.080 * A
+
+
+
+           -----------------  EIGENVALUE ANALYSIS -----------------
+           -                                                      -
+           -              MATRIX DIMENSION :     5054             -
+           -                                                      -
+           -                                                      -
+           -              MAXIMUM MODULUS :  0.355945             -
+           -              MINIMUM MODULUS :  0.000009             -
+           -                                                      -
+           -                                                      -
+           -         LABEL OF LARGEST EIGENVALUE   :     1        - 
+           -         LARGEST EIGENVALUE  : ( 0.200,-0.295)        -
+           -                                                      -
+           -                                                      -
+           -                                                      -
+           -           THE  10 LARGER EIGENVALUES ARE :           -
+           -                                                      -
+           -       0.3559   0.3354   0.3299   0.2962   0.2952     -
+           -       0.2944   0.2942   0.2810   0.2801   0.2800     -
+           -                                                      -
+           -                                                      -
+           -                OMEGA = ( 0.486,-0.091)               -
+           -  SPECTRAL RADIUS OF THE RENORMALIZED MATRIX:  0.356  -
+           -     ---> THE MULTIPLE SCATTERING SERIES CONVERGES    -
+           -                                                      -
+           -                                                      -
+           --------------------------------------------------------
+
+
+
+
+
+
+########## END OF THE MULTIPLE SCATTERING  EIGENVALUE CALCULATION ##########
+
+
+
+
+
